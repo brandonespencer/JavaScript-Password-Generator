@@ -50,7 +50,7 @@ function generatePassword() {
 
   // Empty minimums for numbers, lowerCases, upperCases & specialCharacters
 
-  var minimumNumbers = "";
+  var minimumNumbers = "8";
   var minimumLowerCases = "";
   var minimumUpperCases = "";
   var minimumSpecialCharacters = "";
