@@ -32,7 +32,7 @@ function writePassword() {
 
 }
 
-// Prompts that come up after you click generate password
+// Prompts that show up after you click generate password
 function generatePassword() {
   var passwordLength = prompt("Please enter the number of characters you want for you new password.  It must be more than 8 but less than 128.");
 
@@ -44,11 +44,11 @@ function generatePassword() {
 
   var special = confirm("Do you want numeric or special characters in your password?");
 
-  // this is a minimum count for numbers, lowerCases, upperCases & specialCharacters
+  // minimum count for numbers, lowerCases, upperCases & specialCharacters
   var minimumCount = 8;
 
 
-  // Empty minimums for numbers, lowerCases, upperCases & specialCharacters
+  // minimums for numbers, lowerCases, upperCases & specialCharacters
 
   var minimumNumbers = "1";
   var minimumLowerCases = "1";
@@ -104,7 +104,7 @@ function generatePassword() {
   // empty string variable for the for loop below
    var randomPasswordGenerated = "";
 
-  // for loop getting random characters.
+  // for loop getting random characters
   for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
     var randomNumberPicked = Math.floor(Math.random() * 4);
 
