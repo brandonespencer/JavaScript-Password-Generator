@@ -45,15 +45,15 @@ function generatePassword() {
   var special = confirm("Do you want numeric or special characters in your password?");
 
   // this is a minimum count for numbers, lowerCases, upperCases & specialCharacters
-  var minimumCount = 0;
+  var minimumCount = 8;
 
 
   // Empty minimums for numbers, lowerCases, upperCases & specialCharacters
 
-  var minimumNumbers = "8";
-  var minimumLowerCases = "";
-  var minimumUpperCases = "";
-  var minimumSpecialCharacters = "";
+  var minimumNumbers = "1";
+  var minimumLowerCases = "1";
+  var minimumUpperCases = "1";
+  var minimumSpecialCharacters = "1";
 
 
   var functionArray = {
