@@ -25,10 +25,9 @@ Smaller devices screen:
 
 ### Open your favorite web browser and enter the following web address to access.
 
-```html
-https://esroleo.github.io/javascript-challenge-password-generator/
-```
+https://brandonespencer.github.io/JavaScript-Password-Generator/
 <a name="usage"></a>
+
 ## 3. Usage Tips
 
 
